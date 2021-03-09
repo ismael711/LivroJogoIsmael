@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class ShowDoMilhao {
-
+	//O PROGRAMA ESTÁ COM ERROS, A PERGUNTA É ELIMINATORIA, ERROU ACABOU, PORÉM NÃO DEU CERTO!!! RS
 	public static void main(String[] args) {
 		
 		Scanner leitor = new Scanner(System.in);
@@ -33,37 +33,40 @@ public class ShowDoMilhao {
 			if(resposta.equalsIgnoreCase("A")){
 				System.out.println("Você acertou! Próxima pergunta valendo 1000$");
 			}else {
-			System.out.println("Você errou e ganhou 100$!");
+				System.out.println("Você errou e ganhou 100$!");
 			}
-			System.out.println("Pergunta 3: Qual a data do último dia do curso?");
-			System.out.println("A) 15 de junho");
-			System.out.println("B) 16 de junho");
-			resposta = leitor.next();
-			if(resposta.equalsIgnoreCase("A")){
-			System.out.println("Você acertou! Próxima pergunta valendo 1000$");
-			}else {
-			System.out.println("Você errou e não ganhou nada!");
-			}
-				System.out.println("Pergunta 4: Qual foi a data de início do curso?");
-				System.out.println("A) 19 de fevereiro");
-				System.out.println("B) 22 de fevereiro");
+				System.out.println("Pergunta 3: Qual a data do último dia do curso?");
+				System.out.println("A) 15 de junho");
+				System.out.println("B) 16 de junho");
 				resposta = leitor.next();
-				if(resposta.equalsIgnoreCase("A")){
-				System.out.println("Você acertou! Próxima pergunta valendo 1000$");
+				if(resposta.equalsIgnoreCase("B")){
+					System.out.println("Você acertou! Próxima pergunta valendo 10.000$");
 				}else {
-				System.out.println("Você errou e não ganhou nada!");
+				System.out.println("Você errou  e ganhou 1.000$!!");
 				}
+					System.out.println("Pergunta 4: Qual foi a data de início do curso?");
+					System.out.println("A) 19 de fevereiro");
+					System.out.println("B) 22 de fevereiro");
+					resposta = leitor.next();
+					if(resposta.equalsIgnoreCase("B")){
+						System.out.println("Você acertou! Próxima pergunta valendo 100.000$");
+					}else {
+						System.out.println("Você errou e ganhou 10.000$!");
+					}
 					System.out.println("VALENDO 1 MILHÃO");
 			
-					System.out.println("Pergunta 5: O que está escrito no quadro que fica atrás do Professor André nas aulas?");
-					System.out.println("A) Bastardos Inglórios");
-					System.out.println("B) Pulp Fiction");
-					resposta = leitor.next();
-					if(resposta.equalsIgnoreCase("A")){
-					System.out.println("PARABÉNS, VOCÊ GANHOU 1 MILHÃO!!!");
-					System.out.println("FIM DE JOGO");
-					}
+						System.out.println("Pergunta 5: O que está escrito no quadro que fica atrás do Professor André nas aulas?");
+						System.out.println("A) Bastardos Inglórios");
+						System.out.println("B) Pulp Fiction");
+						resposta = leitor.next();
+						if(resposta.equalsIgnoreCase("B")){
+							System.out.println("PARABÉNS, VOCÊ GANHOU 1 MILHÃO!!!");
+						}else {
+							System.out.println("Você errou e ganhou 100.000$!");
+						}
+			System.out.println("FIM DE JOGO");
 			}
+	
 
 	
 }
